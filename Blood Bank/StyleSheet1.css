@@ -1,0 +1,307 @@
+﻿body {
+    
+    color: #FF0000;
+    font-family: arial, Verdana;
+font-size:16px;
+background-color:lavender;
+}
+#wrapper {
+    width:1100px;
+    margin:auto;
+    padding-bottom:20px;
+    background-color:white;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+    overflow:hidden;
+}
+
+
+#banner{
+}
+#navigation{
+    height:45px;
+    background:linear-gradient(to top,#c2bcb5,#ffffff);
+}
+#nav{
+    display:block;
+    list-style:none;
+    text-align:center;
+}
+#nav ul{
+    display:none;
+    list-style:none;
+}
+#nav li{
+    float:left;
+    display:block;
+    margin-top:15px;
+    text-transform:uppercase;
+    padding:0px 20px 0px 20px;
+    border-left:1px solid #FFFFFF;
+}
+#nav a:link, #nav a:visited, #nav:active 
+{
+    display:block;
+    color:#574c3f;
+    text-decoration:none;
+}
+#nav a:hover{
+    background-color:white;
+}
+#content
+{
+    padding:20px;
+    min-height:400px;
+}
+
+.productImage{
+    width:150px;
+    height:150px;
+    vertical-align:central;
+    padding:10px;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    
+}
+
+.productName{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.productPrice{
+    font-family:arial,helvetica,sans-serif;
+    color:#FFB600;
+}
+
+#ContentPlaceHolder1_pnlProducts div
+{
+    float:left;
+    width:250px;
+    height:250px;
+    text-align:center;
+}
+
+.alignTitle{
+    text-align:center;
+}
+
+.detailsImage{
+    margin-right:20px;
+}
+
+.detailsDescription{
+    width:400px;
+    font-style:italic;}
+
+.detailsPrice
+{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.button {
+    padding:10px;
+    margin:10px;
+    color:#FF0000;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    clear:both;
+    background:linear-gradient(to bottom,grey, white);
+    
+}
+
+.button2 {
+    padding:10px;
+    margin:10px;
+    color:#FF0000;
+    border:0;
+    text-align:left;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    clear:both;
+    background:linear-gradient(to bottom,grey, white);
+    
+}
+
+
+.knowledge {
+    color:#000000;
+}
+
+.MasterContent {
+    position:relative;
+    float:right;
+    width:1000px;
+    height: auto;
+    top: 0px;
+    left: 0px;
+}
+
+#wrapper2 {
+    width:1100px;
+    margin:auto;
+    padding-bottom:20px;
+    background-color:white;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+    overflow:hidden;
+}
+
+ul {
+    list-style-type:none;
+}
+
+
+
+#ul2 {
+    list-style-type:circle
+}
+
+
+
+
+
+
+div.RadCalendar_Metro 
+{
+    width: 240px;
+    background: #f4f4da none repeat scroll 0 0;
+}
+ 
+.RadCalendar_Metro .rcTitle
+{
+    height: 30px;
+}
+ 
+ 
+div.RadCalendar_Metro .rcMain
+{
+    border: 0 none;
+}
+ 
+div.RadCalendar_Metro .rcMain .rcRow a {
+    color: #272722;
+}
+ 
+div.RadCalendar_Metro .rcMain .rcOtherMonth a {
+    color: #777;
+}
+ 
+div.RadCalendar_Metro td.rcTitlebar,
+div.RadCalendar_Metro td.rcTitlebar table
+{
+    border: 0;
+}
+ 
+div.RadCalendar_Metro  .rcTitlebar td
+{
+    border-bottom: 1px solid #fff;
+}
+ 
+div.RadCalendar_Metro .rcTitlebar {
+    color: #fff;
+}
+ 
+div.RadCalendar_Metro .rcTitlebar a.rcFastPrev,
+div.RadCalendar_Metro .rcTitlebar a.rcFastPrev:hover
+{
+    background-position: 0 -200px;
+}
+ 
+div.RadCalendar_Metro .rcTitlebar a.rcPrev,
+div.RadCalendar_Metro .rcTitlebar a.rcPrev:hover
+{
+    background-position: 0 -300px;
+}
+ 
+div.RadCalendar_Metro .rcTitlebar a.rcNext,
+div.RadCalendar_Metro .rcTitlebar a.rcNext:hover
+{
+    background-position: 0 -400px;
+}
+div.RadCalendar_Metro .rcTitlebar a.rcFastNext,
+div.RadCalendar_Metro .rcTitlebar a.rcFastNext:hover
+{
+    background-position: 0 -500px;
+}
+ 
+.RadCalendar_Metro .rcTitlebar a.rcPrev,
+.RadCalendar_Metro .rcTitlebar a.rcFastPrev,
+.RadCalendar_Metro .rcTitlebar a.rcNext,
+.RadCalendar_Metro .rcTitlebar a.rcFastNext
+{
+    border: 1px solid transparent;
+}
+ 
+.RadCalendar_Metro .rcTitlebar a.rcPrev:hover,
+.RadCalendar_Metro .rcTitlebar a.rcFastPrev:hover,
+.RadCalendar_Metro .rcTitlebar a.rcNext:hover,
+.RadCalendar_Metro .rcTitlebar a.rcFastNext:hover
+{
+    border-color: #fff;
+    background-color: transparent;
+}
+ 
+div.RadCalendar_Metro .rcMainTable {
+    font: 12px/20px "segoe ui",arial,sans-serif;
+}
+ 
+.RadCalendar_Metro .rcMainTable tr .rcHover,
+.RadCalendar_Metro .rcMainTable tr .HoverClass,
+.RadCalendar_Metro .rcMainTable tr .SelectedClass
+{
+    background-image: none;
+    border-color: #F4F4DA;
+}
+ 
+.RadCalendar_Metro .rcMainTable tr .rcHover
+{
+    background: #b3a588;
+}
+ 
+.RadCalendar_Metro .rcMainTable tr .rcHover a
+{
+    color: #fff !important;
+}
+ 
+.RadCalendar_Metro .rcSelected.rcHover
+{
+    background: #63903c !important;
+}
+ 
+.RadCalendar_Metro .rcMainTable tr .HoverClass a,
+.RadCalendar_Metro .rcMainTable tr .SelectedClass a
+{
+    color: inherit;
+}
+/*IE 7*/
+* html .RadCalendar_Metro .rcMainTable tr .SelectedClass a
+{
+    color: #fff; 
+}
+ 
+div.RadCalendarMonthView_Metro input
+{
+    background: #3b2707;
+    border-color: #3b2707;
+    color: #fff;
+}
+ 
+div.RadCalendarMonthView_Metro .rcSelected a
+{
+    background: #86b35f;
+    border-color: #86b35f;
+    color: #fff;
+}
+ 
+.RadCalendarMonthView td.rcSelected a {
+    background-color: #86b35f;
+    border-color: #F4F4DA;
+}

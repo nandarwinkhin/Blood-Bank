@@ -1,0 +1,5 @@
+C:\Users\Acer\documents\visual studio 2012\Projects\Blood Bank\Blood Bank\bin\Blood Bank.dll
+C:\Users\Acer\documents\visual studio 2012\Projects\Blood Bank\Blood Bank\bin\Blood Bank.pdb
+C:\Users\Acer\documents\visual studio 2012\Projects\Blood Bank\Blood Bank\obj\Debug\Blood Bank.csprojResolveAssemblyReference.cache
+C:\Users\Acer\documents\visual studio 2012\Projects\Blood Bank\Blood Bank\obj\Debug\Blood Bank.dll
+C:\Users\Acer\documents\visual studio 2012\Projects\Blood Bank\Blood Bank\obj\Debug\Blood Bank.pdb

@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Blood_Bank.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Blood Bank</title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="wrapper">
+            <div id="banner">
+                <asp:Image ID="Image1" runat="server" Height="400px" ImageUrl="~/Images/blood donation.png" Width="100%" />
+            </div>
+            <div id="navigation">
+            <ul id="nav">
+                <li><asp:HyperLink ID="lnkRegister" runat="server" NavigateUrl="~/Pages/register.aspx">Register </asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Pages/search_donor.aspx" >Search a Donor</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Pages/donation_tip.aspx">Tips for blood donation</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Pages/knowledge.aspx" >Blood Facts</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/About us.aspx" >About Us</asp:HyperLink></li>
+                
+                <li style="float:right">
+                    <asp:HyperLink ID="lnkLogin" NavigateUrl="~/Pages/login.aspx" runat="server" >Login</asp:HyperLink>
+                    <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click">Log out</asp:LinkButton>
+                </li>
+                <li><asp:HyperLink ID="link_your_acc" runat="server" NavigateUrl="~/Pages/your_account.aspx" CssClass="button" Visible="false"  >Your account</asp:HyperLink></li>
+            </ul>
+        </div>
+        </div>
+        
+        <div id="wrapper2">
+            <%--<%-- <div style="width: 100px; height: 299px; float:left" id="Div1">
+            <%--<ul >
+                
+            </ul>--%>
+                 <%--<br /><br />
+             
+            </div>--%>
+        <center><asp:Label ID="Label1" runat="server" Visible="false"  Text="(After every blood donation, please update your last blood donation date)"></asp:Label></center>
+            <div  class="MasterContent">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    
+    
+        
+
+   
+    
+     </div>   
+    </form>
+</body>
+</html>
